@@ -14,6 +14,64 @@ The primary aim of the **AutoMathText** dataset is to provide a comprehensive an
 - Serving as an educational tool for **learning and teaching complex mathematical concepts**.
 - Providing **a foundation for developing and training AI models** specialized in processing and understanding **mathematical content**.
 
+## Configs
+
+```YAML
+configs:
+  - config_name: web-0.50-to-1.00
+    data_files:
+      - split: train
+        path:
+          - data/web/0.95-1.00.jsonl
+          - data/web/0.90-0.95.jsonl
+          - ...
+          - data/web/0.50-0.55.jsonl
+    default: true
+  - config_name: web-0.60-to-1.00
+  - config_name: web-0.70-to-1.00
+  - config_name: web-0.80-to-1.00
+  - config_name: web-full
+    data_files: data/web/*.jsonl
+  - config_name: arxiv-0.50-to-1.00
+    data_files:
+      - split: train
+        path:
+          - data/arxiv/0.90-1.00/*.jsonl
+          - ...
+          - data/arxiv/0.50-0.60/*.jsonl
+  - config_name: arxiv-0.60-to-1.00
+  - config_name: arxiv-0.70-to-1.00
+  - config_name: arxiv-0.80-to-1.00
+  - config_name: arxiv-full
+    data_files: data/arxiv/*/*.jsonl
+  - config_name: code-0.50-to-1.00
+    data_files:
+      - split: train
+        path:
+          - data/code/*/0.95-1.00.jsonl
+          - ...
+          - data/code/*/0.50-0.55.jsonl
+  - config_name: code-python-0.50-to-1.00
+      - split: train
+        path:
+          - data/code/python/0.95-1.00.jsonl
+          - ...
+          - data/code/python/0.50-0.55.jsonl
+  - config_name: code-python-0.60-to-1.00
+  - config_name: code-python-0.70-to-1.00
+  - config_name: code-python-0.80-to-1.00
+  - config_name: code-full
+    data_files: data/code/*/*.jsonl
+```
+
+How to load data:
+
+```python
+from datasets import load_dataset
+
+ds = load_dataset("math-ai/AutoMathText", "web-0.50-to-1.00") # or any valid config_name
+```
+
 ## Features
 
 - **Volume**: Approximately 200 GB of text data (in natural language and programming language).
