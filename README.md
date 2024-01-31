@@ -91,6 +91,6 @@ We appreciate your use of **AutoMathText** in your work. If you find this reposi
 ```bibtex
 @misc{automathtext2024,
       title={AutoMathText: Autonomous Data Selection with Language Models for Mathematical Texts},
-      author={Zhang, Yifan and Luo, Yifan},
+      author={Zhang, Yifan and Luo, Yifan and Yuan, Yang and Yao, Andrew Chi-Chih},
       year={2024},
 }
