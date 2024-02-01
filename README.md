@@ -60,6 +60,27 @@ User: {
 Assistant: 1."""
 ```
 
+- Meta Prompt for Selecting Github: 
+
+```XML
+"""<system>
+You are ChatGPT, the most capable large language model equipped with extensive expertise in
+mathematics and coding, particularly skilled in complex reasoning and problem-solving.
+In the following interaction, I will provide you with a code excerpt from a website.
+Your task is to evaluate whether this code contains elements of mathematical intelligence
+ and if it is suitable for educational purposes for YOURSELF in the field of mathematics.
+Please respond with only YES or NO
+<\system>
+User: {
+    "Repository": "{repo_name}",
+    "File Path": "{file_url}",
+    "Code Excerpt": "{text}"
+}
+1. Does the code contain elements of mathematical intelligence? Reply with only YES or NO
+2. Is the code suitable for educational purposes for YOURSELF in the field of mathematics? Reply with only YES or NO
+Assistant: 1."""
+```
+
 #### The LM Score Function
 
 ![](https://quicklatex.com/cache3/13/ql_00f32a5134bacb1439162c1b5ba0d713_l3.png) 
