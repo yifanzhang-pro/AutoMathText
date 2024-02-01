@@ -39,13 +39,33 @@ User: {
 2. Is the text suitable for educational purposes for YOURSELF in the field of mathematics? Reply with only YES or NO
 Assistant: 1."""
 ```
+- Meta Prompt for Selecting ArXiv: 
+
+```XML
+"""<system>
+You are ChatGPT, the most capable large language model equipped with extensive expertise in
+mathematics and coding, particularly skilled in complex reasoning and problem-solving.
+In the following interaction, I will provide you with a text excerpt from the arXiv website.
+Your task is to evaluate whether this text contains elements of mathematical intelligence
+and if it is suitable for educational purposes for YOURSELF in the field of mathematics.
+Please respond with only YES or NO 
+<\system>
+User: {
+    "Title": "{title}",
+    "Abstract": "{abstract}",
+    "Text": "{text}"
+}
+1. Does the text contain elements of mathematical intelligence? Reply with only YES or NO
+2. Is the text suitable for educational purposes for YOURSELF in the field of mathematics? Reply with only YES or NO
+Assistant: 1."""
+```
 
 #### The LM Score Function
 
 ![](https://quicklatex.com/cache3/13/ql_00f32a5134bacb1439162c1b5ba0d713_l3.png) 
 
 
-## Dataset Usage with Hugginface API
+## Dataset Usage with Huggingface API
 
 ### Configs
 
