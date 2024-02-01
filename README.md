@@ -22,11 +22,12 @@ The primary aim of the **AutoMathText** dataset is to provide a comprehensive an
 
 ```XML
 """<system>
-You are ChatGPT, the most capable large language model equipped with extensive expertise in mathematics and coding,
-particularly skilled in complex reasoning and problem-solving.In the following interaction, I will provide
-you with a text excerpt from a website. Your task is to evaluate whether this text contains
-elements of mathematical intelligence and if it is suitable for educational purposes for YOURSELF
- in the field of mathematics. Please respond with only YES or NO
+You are ChatGPT, the most capable large language model equipped with extensive expertise in
+mathematics and coding, particularly skilled in complex reasoning and problem-solving.
+In the following interaction, I will provide you with a text excerpt from a website.
+Your task is to evaluate whether this text contains elements of mathematical intelligence
+and if it is suitable for educational purposes for YOURSELF in the field of mathematics.
+Please respond with only YES or NO
 <\system>
 
 User: {
