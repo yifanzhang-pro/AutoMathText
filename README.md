@@ -6,7 +6,7 @@ AutoMathText: Autonomous Data Selection with Language Models for Mathematical Te
 ### Trending on Huggingface!
 <img src="./images/huggingface-trending.png" alt="Trending on Huggingface!" width="400" height="800">
 
-## Objective
+### Objective
 
 The primary aim of the **AutoMathText** dataset is to provide a comprehensive and reliable resource for a wide array of users - from academic researchers and educators to AI practitioners and mathematics enthusiasts. This dataset is particularly geared towards:
 
@@ -14,54 +14,50 @@ The primary aim of the **AutoMathText** dataset is to provide a comprehensive an
 - Serving as an educational tool for **learning and teaching complex mathematical concepts**.
 - Providing **a foundation for developing and training AI models** specialized in processing and understanding **mathematical content**.
 
-## Configs
+## Autonomous Data Selection with Language Models
+
+### Zero-shot Data Selection without Alignment 
+
+- Meta Prompt for Selecting OpenWebMath: 
+
+```XML
+"""<system>
+You are ChatGPT, the most capable large language model equipped with extensive expertise in mathematics and coding,
+particularly skilled in complex reasoning and problem-solving.In the following interaction, I will provide
+you with a text excerpt from a website. Your task is to evaluate whether this text contains
+elements of mathematical intelligence and if it is suitable for educational purposes for YOURSELF
+ in the field of mathematics. Please respond with only YES or NO
+<\system>
+
+User: {
+    "url": "{url}",
+    "text": "{text}"
+}
+1. Does the text contain elements of mathematical intelligence? Reply with only YES or NO
+2. Is the text suitable for educational purposes for YOURSELF in the field of mathematics? Reply with only YES or NO
+Assistant: 1."""
+```
+
+## Dataset Usage with Hugginface API
+
+### Configs
 
 ```YAML
 configs:
   - config_name: web-0.50-to-1.00
-    data_files:
-      - split: train
-        path:
-          - data/web/0.95-1.00.jsonl
-          - data/web/0.90-0.95.jsonl
-          - ...
-          - data/web/0.50-0.55.jsonl
     default: true
   - config_name: web-0.60-to-1.00
   - config_name: web-0.70-to-1.00
   - config_name: web-0.80-to-1.00
   - config_name: web-full
-    data_files: data/web/*.jsonl
   - config_name: arxiv-0.50-to-1.00
-    data_files:
-      - split: train
-        path:
-          - data/arxiv/0.90-1.00/*.jsonl
-          - ...
-          - data/arxiv/0.50-0.60/*.jsonl
   - config_name: arxiv-0.60-to-1.00
   - config_name: arxiv-0.70-to-1.00
   - config_name: arxiv-0.80-to-1.00
   - config_name: arxiv-full
-    data_files: data/arxiv/*/*.jsonl
   - config_name: code-0.50-to-1.00
-    data_files:
-      - split: train
-        path:
-          - data/code/*/0.95-1.00.jsonl
-          - ...
-          - data/code/*/0.50-0.55.jsonl
   - config_name: code-python-0.50-to-1.00
-      - split: train
-        path:
-          - data/code/python/0.95-1.00.jsonl
-          - ...
-          - data/code/python/0.50-0.55.jsonl
-  - config_name: code-python-0.60-to-1.00
-  - config_name: code-python-0.70-to-1.00
-  - config_name: code-python-0.80-to-1.00
   - config_name: code-full
-    data_files: data/code/*/*.jsonl
 ```
 
 How to load data:
@@ -72,7 +68,7 @@ from datasets import load_dataset
 ds = load_dataset("math-ai/AutoMathText", "web-0.50-to-1.00") # or any valid config_name
 ```
 
-## Features
+### Features
 
 - **Volume**: Approximately 200 GB of text data (in natural language and programming language).
 - **Content**: A diverse collection of mathematical texts, including but not limited to research papers, educational articles, and code documentation.
