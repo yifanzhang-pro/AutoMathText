@@ -105,6 +105,7 @@ configs:
   - config_name: arxiv-full
   - config_name: code-0.50-to-1.00
   - config_name: code-python-0.50-to-1.00
+  - config_name: code-python-0.80-to-1.00
   - config_name: code-full
 ```
 
