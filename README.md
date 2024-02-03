@@ -17,7 +17,7 @@ The primary aim of the **AutoMathText** dataset is to provide a comprehensive an
 
 ## Autonomous Data Selection with Language Models
 
-### Zero-shot Data Selection without Alignment 
+### Zero-shot Data Selection without Alignment (SFT / RLHF)
 
 - Meta Prompt for Selecting OpenWebMath: 
 
