@@ -1,1 +1,13 @@
-
+transformers==4.36.2
+accelerate
+tiktoken
+einops
+transformers_stream_generator==0.0.4
+scipy
+datasets
+jsonlines
+pebble
+timeout-decorator
+tenacity
+sympy==1.12
+antlr4-python3-runtime==4.11
