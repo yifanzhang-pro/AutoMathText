@@ -86,9 +86,9 @@ User: {
 Assistant: 1."""
 ```
 
-#### The LM Score Function
+#### The LM-Score Function
 
-![](https://quicklatex.com/cache3/13/ql_00f32a5134bacb1439162c1b5ba0d713_l3.png) 
+<img src="./images/lm-score.png" alt="LM-Score Function">
 
 
 ## Dataset Usage with Huggingface API
