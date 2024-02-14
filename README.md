@@ -134,8 +134,9 @@ ds = load_dataset("math-ai/AutoMathText", "web-0.50-to-1.00") # or any valid con
 We appreciate your use of **AutoMathText** in your work. If you find this repository helpful, please consider citing it and star this repo. Feel free to contact zhangyif21@tsinghua.edu.cn or open an issue if you have any questions.
 
 ```bibtex
-@misc{automathtext2024,
+@article{zhang2024automathtext,
       title={AutoMathText: Autonomous Data Selection with Language Models for Mathematical Texts},
       author={Zhang, Yifan and Luo, Yifan and Yuan, Yang and Yao, Andrew Chi-Chih},
+      journal={arXiv preprint arXiv:2402.07625},
       year={2024},
 }
