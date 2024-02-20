@@ -1,4 +1,7 @@
-mport json
+# Autonomous Data Selection with Language Model (Qwen-72B) on arxiv texts (RedPajama) 
+# Author: Yifan Zhang
+
+import json
 import os
 import numpy as np
 import random
