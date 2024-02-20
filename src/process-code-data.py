@@ -1,3 +1,6 @@
+# Autonomous Data Selection with Language Model (Qwen-72B) on code snippets (The Stack, Algebraic Stack) 
+# Author: Yifan Zhang
+
 import json
 import os
 import numpy as np
