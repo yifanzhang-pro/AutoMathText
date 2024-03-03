@@ -133,7 +133,7 @@ ds = load_dataset("math-ai/AutoMathText", "web-0.50-to-1.00") # or any valid con
 
 - OpenWebMath [[link]](https://huggingface.co/datasets/open-web-math/open-web-math)
 - RedPajama [[link]](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T)
-- Algebraick Stack [[link]](https://huggingface.co/datasets/EleutherAI/proof-pile-2) (a subset of Proof-Pile-2)
+- Algebraic Stack [[link]](https://huggingface.co/datasets/EleutherAI/proof-pile-2) (a subset of Proof-Pile-2)
 
 ## Citation 
 We appreciate your use of **AutoMathText** in your work. If you find this repository helpful, please consider citing it and star this repo. Feel free to contact zhangyif21@tsinghua.edu.cn or open an issue if you have any questions.
