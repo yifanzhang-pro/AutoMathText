@@ -1,6 +1,6 @@
-# AutoMathText
+# AutoMathText: Autonomous Data Selection
 
-AutoMathText: Autonomous Data Selection with Language Models for Mathematical Texts (https://arxiv.org/abs/2402.07625).
+Official implementation of DPFM @ ICLR 2024 paper "AutoMathText: Autonomous Data Selection with Language Models for Mathematical Texts" (https://arxiv.org/abs/2402.07625).
 
 **Featured as Huggingface Daily Papers! (https://huggingface.co/papers/2402.07625)**
 
