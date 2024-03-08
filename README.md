@@ -1,5 +1,12 @@
 # AutoMathText: Autonomous Data Selection
 
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2402.07625)
+![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)
+
+Homepage: https://auto-data-selection.github.io.
+
+## Introduction 
+
 Official implementation of DPFM @ ICLR 2024 paper "AutoMathText: Autonomous Data Selection with Language Models for Mathematical Texts" (https://arxiv.org/abs/2402.07625).
 
 **Featured as Huggingface Daily Papers! (https://huggingface.co/papers/2402.07625)**
