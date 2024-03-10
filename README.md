@@ -1,4 +1,4 @@
-# AutoMathText: Autonomous Data Selection
+# AutoMathText: Autonomous Data Selection (AutoDS) 
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2402.07625)
 ![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)
