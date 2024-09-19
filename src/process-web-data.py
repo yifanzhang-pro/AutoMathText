@@ -171,17 +171,17 @@ def process_batches(original_filename, prompts, llm, sampling_params, original_d
             q2_logprob_yes = max(q2_logprob_yes, output.outputs[0].logprobs[q2_idx].get(Yes_ID, -100))
             if q2_logprob_yes == -100:
                 try: 
-                    q2_logprob_yes = output.outputs[0].logprobs[0].get(Yes_ID, -100)
+                    q2_logprob_yes = output.outputs[0].logprobs[q2_idx].get(Yes_ID, -100)
                 except Exception as e:
                     print(f"Error: {e}")
                     print(f"URL: {original_data[original_index]['meta']['url']}")
                     print(f"lm_label: {output.outputs[0].text}")
                     q1_logprob_yes = -100
-            q2_logprob_no = output.outputs[0].logprobs[0].get(NO_ID, -100)
-            q2_logprob_no = max(q2_logprob_no, output.outputs[0].logprobs[0].get(No_ID, -100))
+            q2_logprob_no = output.outputs[0].logprobs[q2_idx].get(NO_ID, -100)
+            q2_logprob_no = max(q2_logprob_no, output.outputs[0].logprobs[q2_idx].get(No_ID, -100))
             if q2_logprob_no == -100:
                 try:
-                    q2_logprob_no = output.outputs[0].logprobs[0].get(No_ID, -100)
+                    q2_logprob_no = output.outputs[0].logprobs[q2_idx].get(No_ID, -100)
                 except Exception as e:
                     print(f"Error: {e}")
                     print(f"URL: {original_data[original_index]['meta']['url']}")
