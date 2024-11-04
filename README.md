@@ -147,7 +147,7 @@ We appreciate your use of **AutoMathText** in your work. If you find this reposi
 
 ```bibtex
 @article{zhang2024automathtext,
-  title={AutoMathText: Autonomous Data Selection with Language Models for Mathematical Texts},
+  title={Autonomous Data Selection with Language Models for Mathematical Texts},
   author={Zhang, Yifan and Luo, Yifan and Yuan, Yang and Yao, Andrew Chi-Chih},
   journal={arXiv preprint arXiv:2402.07625},
   year={2024}
