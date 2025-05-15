@@ -146,7 +146,7 @@ ds = load_dataset("math-ai/AutoMathText", "web-0.50-to-1.00") # or any valid con
 We appreciate your use of **AutoMathText** in your work. If you find this repository helpful, please consider citing it and star this repo. Feel free to contact zhangyif21@mails.tsinghua.edu.cn or open an issue if you have any questions.
 
 ```bibtex
-@article{zhang2025automathtext,
+@article{zhang2025autonomous,
   title={Autonomous Data Selection with Zero-shot Generative Classifiers for Mathematical Texts},
   author={Zhang, Yifan and Luo, Yifan and Yuan, Yang and Yao, Andrew Chi-Chih},
   journal={The 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025 Findings)},
