@@ -3,8 +3,6 @@
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2402.07625)
 ![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)
 
-Homepage: https://auto-data-selection.github.io.
-
 ## Introduction 
 
 Official implementation of ACL 2025 Findings paper "Autonomous Data Selection with Zero-shot Generative Classifiers for Mathematical Texts" (https://arxiv.org/abs/2402.07625).
@@ -143,7 +141,7 @@ ds = load_dataset("math-ai/AutoMathText", "web-0.50-to-1.00") # or any valid con
 - Algebraic Stack [[link]](https://huggingface.co/datasets/EleutherAI/proof-pile-2) (a subset of Proof-Pile-2)
 
 ## Citation 
-We appreciate your use of **AutoMathText** in your work. If you find this repository helpful, please consider citing it and star this repo. Feel free to contact zhangyif21@mails.tsinghua.edu.cn or open an issue if you have any questions.
+We appreciate your use of **AutoMathText** in your work. If you find this repository helpful, please consider citing it and star this repo. Feel free to contact yifanzhangresearch@gmail.com or open an issue if you have any questions.
 
 ```bibtex
 @article{zhang2025autonomous,
