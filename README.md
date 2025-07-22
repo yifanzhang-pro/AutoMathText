@@ -146,7 +146,7 @@ We appreciate your use of **AutoMathText** in your work. If you find this reposi
 ```bibtex
 @article{zhang2025autonomous,
   title={Autonomous Data Selection with Zero-shot Generative Classifiers for Mathematical Texts},
-  author={Zhang, Yifan and Luo, Yifan and Yuan, Yang and Yao, Andrew Chi-Chih},
+  author={Zhang, Yifan and Luo, Yifan and Yuan, Yang and Yao, Andrew C},
   journal={The 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025 Findings)},
   year={2025}
 }
