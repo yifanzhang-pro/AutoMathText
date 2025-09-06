@@ -1,8 +1,8 @@
 # AutoMathText: Autonomous Data Selection (AutoDS) 
 
 [![arXiv](https://img.shields.io/badge/arXiv-2402.07625-b31b1b.svg)](https://arxiv.org/abs/2402.07625)
-[![License: MIT](https://img.shields.io/badge/License-CCBYSA4.0-yellow.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-![Python 3.9+](https://img.shields.io/badge/python-3.10+-blue.svg)
+[![License: CC-BY-SA-4.0](https://img.shields.io/badge/License-CCBYSA4.0-yellow.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)
 [![Website](https://img.shields.io/badge/Project-Website-green)](https://auto-data-selection.github.io) 
 
 
